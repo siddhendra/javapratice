@@ -1,0 +1,15 @@
+import javax.lang.model.util.ElementScanner14;
+
+public class alphabet {
+    public static void main(String[] args) {
+
+        char c = 'H';
+
+
+        if( (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+            System.out.println(c + " is an alphabet.");
+        else
+            System.out.println(c + " is not an alphabet.");
+    }
+}
+
