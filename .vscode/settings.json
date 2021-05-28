@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "javapro",
-        "java1"
+        "java1",
+        "java"
     ]
 }

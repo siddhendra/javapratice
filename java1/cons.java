@@ -1,11 +1,10 @@
 package java1;
 
-public class remove {
+public class cons {
     public static void main(String[] args) {
-        String s1 ="siddhu";
-        s1.re
-
-
+        int hno;
+        String loc;
+        
 
     }
     
