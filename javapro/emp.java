@@ -1,7 +1,7 @@
 public class emp {
        int eno;
        String ename;
-       public int getEno() {
+	public int getEno() {
 		return eno;
 	}
 	public void setEno(int eno) {
@@ -13,5 +13,6 @@ public class emp {
 	public void setEname(String ename) {
 		this.ename = ename;
 	}
+      
     
 }
