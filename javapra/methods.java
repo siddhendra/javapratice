@@ -1,8 +1,13 @@
+import java.lang.reflect.Array;
+
 public class methods {
     public static void main(String[] args) {
-        String s = "Madala";
-    boolean flag = s.contentEquals("MAdala");
-    System.out.println(flag);
+        String s = "siddhendra chowdary";
+       char[] ch =  new char[20];
+       s.getChars(8, 15, ch, 0);
+       System.out.println(ch);
+
+      
     }
-    
+
 }
