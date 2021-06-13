@@ -1,6 +1,6 @@
 public class exte {
     public static void main(String[] args) {
-        emp e = new emp();
+        empl e = new empl();
         e.setEno(101);
         e.setEname("siddu");
         System.out.println(e.getEno());
