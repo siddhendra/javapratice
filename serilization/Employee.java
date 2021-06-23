@@ -1,16 +1,44 @@
-import javax.lang.model.util.ElementScanner14;
 
-public class Employee implements Cloneable {
+
+public class Employee implements Comparable<Employee> {
     int eno;
-    String edept;
     String ename;
-    public Employee(int eno, String edept, String ename) {
-        this.eno = eno;
-        this.edept = edept;
-        this.ename = ename;
-    }
+    
+   public int getEno() {
+      return eno;
+   }
+
+   public void setEno(int eno) {
+      this.eno = eno;
+   }
+
+   public String getEname() {
+      return ename;
+   }
+
+   public void setEname(String ename) {
+      this.ename = ename;
+   }
    
-}    
+
+   public Employee(int eno, String ename) {
+      this.eno = eno;
+      this.ename = ename;
+   }
+
+   @Override
+   public int compareTo(Employee emp) {
+      return emp.getEname().compareTo(this.ename);
+   }
+public String toString()
+{
+   return eno+"-"+ename;
+}
+  
+    
+ }
+   
+  
     
     
 

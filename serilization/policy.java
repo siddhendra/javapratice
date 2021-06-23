@@ -1,11 +1,8 @@
 public class policy {
 
-	public void policyNames()
+	public policy()
 	{
-		System.out.println("LIC's Saral Jeevan Bima");
-		System.out.println("LIC's Bima Jyoti");
-		System.out.println("LIC's Bachat Plus");
-		System.out.println("Lic's New Endowment Plan");
+		System.out.println("am from super");
 	}
 }
 
