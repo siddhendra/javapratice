@@ -2,9 +2,11 @@
     "java.project.sourcePaths": [
         "stringbufbul",
         "serilization",
+        "pratice",
         "javapro",
         "javapra",
         "java1",
-        "collections"
+        "collections",
+        "oopspratice"
     ]
 }
