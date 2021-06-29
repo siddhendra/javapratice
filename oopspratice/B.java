@@ -4,7 +4,7 @@ public class B extends singleinheritance {
       System.out.println("Child class method");
     }
     public static void main(String[] args) {
-        b obj= new b();
+        B obj= new B();
         obj.method1();
         obj.methodB();
     }
