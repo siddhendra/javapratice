@@ -8,7 +8,7 @@ public class hashsetfailfast {
         hs.add("i");
         hs.add("d");
         hs.add("h");
-        hs.iterator()
+        hs.iterator();
     }
     
 }
