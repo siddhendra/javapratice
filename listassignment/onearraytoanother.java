@@ -1,16 +1,27 @@
 import java.util.ArrayList;
+import java.util.List;
 
 public class onearraytoanother {
     public static void main(String[] args) {
-        ArrayList<Character> al = new ArrayList<Character>();
+        List<Character> al = new ArrayList<Character>();
         al.add('s');
         al.add('i');
         al.add('d');
         al.add('h');
         al.add('u');
-        ArrayList<Character> al1 = new ArrayList<>(al);
-        for(Character temp:al1)
-        System.out.println(temp);
+        System.out.println(al);
+        List<Character> al1 = new ArrayList<>();
+        for( int i=0 ; i<=al.size()-1; i++)
+        {
+                al1.add(al.get(i));
+
+        }
+        System.out.println(al1);
+    
+        /*for(Character value:al1)
+        {
+            System.out.println(value);
+        }*/
     }
 
     

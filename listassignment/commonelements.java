@@ -7,7 +7,6 @@ public class commonelements {
         a1.add(10);
         a1.add(20);
         a1.add(30);
-        a1.add(40);
         a1.add(60);
           
         List<Object> a2 = new ArrayList<>();
@@ -16,7 +15,8 @@ public class commonelements {
         a2.add(30);
         a2.add(40);
         a2.add(50);
-        a1.
+        a1.retainAll(a2);
+        System.out.println(a1);
     }
     
 }
