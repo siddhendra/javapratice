@@ -3,8 +3,22 @@ package TestJava;
 public class classload {
     public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException
     {
-        Class fn = Class.forName("TestJava.classload");
-        System.out.println(fn.getClass().getName());
+        try
+        {
+            
+            Class.forName("TestJava.classload");
+            System.out.println("i am from try block");
+            System.exit(0);
+        }
+        catch(ClassNotFoundException e)
+        {
+              System.out.println("class not found "+e);
+              System.exit(0);
+        }
+       finally
+       {
+           System.out.println("i am from final block");
+       }
         
     }
     
