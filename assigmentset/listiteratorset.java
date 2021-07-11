@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
@@ -12,14 +13,12 @@ public class listiteratorset {
         lhss.add(277);
         lhss.add(377);
         lhss.add(477);
-        System.out.println("forward direction");
-        lhss.listiterator();
+        ArrayList<Integer> al = new ArrayList<>(lhss);
+        Iterator<Integer> i = al.iterator();
         while(i.hasNext())
         {
             System.out.println(i.next());
         }
-        System.out.println("backward direction");
-        lhss.li
     }
     
 }

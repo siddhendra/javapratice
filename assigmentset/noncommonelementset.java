@@ -14,7 +14,7 @@ public class noncommonelementset {
         hs1.add("a");
         hs1.add("n");
         hs.removeAll(hs1);
-        System.out.println(hs);
+        System.out.println(hs.size());
 
     }
     
